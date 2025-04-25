@@ -1,8 +1,8 @@
 let jogos = [`Honkai Star Rail`, `Roblox`, `Minecraft`];
-let jogoFavorito = `Honkai Star Rail`;
+let jogoFavorito = `Roblox`;
 
 for (let i = 0; i < jogos.length; i++) {
-    if (jogoFavorito === jogos[i]) {
-    console.log (`🏆 ${i + 1} ° lugar: ${jogos[i]}`);
-}
+    if (jogoFavorito == jogos[i]) {
+    console.log (`Jogo favorito é 🏆 ${jogos[i]}: ${i + 1}° lugar!`);
+} else
 }
